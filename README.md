@@ -60,7 +60,9 @@ Geocoder.ak=WtSZDjE0KEgfSMsxGY7pxnlk
 
 #### 方法介绍
 
-**getLocation(opt)**  opt指定了执行该方法的配置，为Object类型，包含的属性：
+##### getLocation(opt) 
+
+opt指定了执行该方法的配置，为Object类型，包含的属性：
 
 | 名称 | 类型 | 介绍 |
 | :---:| :---: | :---: |
@@ -68,7 +70,9 @@ Geocoder.ak=WtSZDjE0KEgfSMsxGY7pxnlk
 | domId | String | 必须指定，代表将结果信息插入到HTML哪个标签中，指定标签的ID |
 | detailed | Boolean | 默认为false，如果为true则显示该位置详细信息，为false只显示简要信息 |
 
-**getWeather(opt)**  opt指定了执行该方法的配置，为Object类型，包含的属性：
+##### getWeather(opt)
+
+opt指定了执行该方法的配置，为Object类型，包含的属性：
 
 | 名称 | 类型 | 介绍 |
 | :---:| :---: | :---: |
@@ -76,7 +80,9 @@ Geocoder.ak=WtSZDjE0KEgfSMsxGY7pxnlk
 | domId | String | 必须指定，代表将结果信息插入到HTML哪个标签中，指定标签的ID |
 | detailed | Boolean | 默认为false，如果为true则显示该位置详细天气信息，为false只显示简要信息 |
 
-**getPicture(opt)**  opt指定了执行该方法的配置，为Object类型，包含的属性：
+##### getPicture(opt)
+
+opt指定了执行该方法的配置，为Object类型，包含的属性：
 
 | 名称 | 类型 | 介绍 |
 | :---:| :---: | :---: |
