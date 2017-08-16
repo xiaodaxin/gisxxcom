@@ -7,10 +7,6 @@ define(["dojo/_base/declare","dojo/request/script","dojo/json","dojo/dom"],funct
 	 		this.ak=ak;
 	 	},
 
-	 	constructor: function(){
-	 		this.ak="WtSZiDjE0KEgfSMsxGY7pxng";
-	 	},
-       
         getLocation: function(opt){
 
         	var point=opt.point;
