@@ -26,7 +26,8 @@
 #### 构造方法
 Geocoder(ak)
 - **ak**：String类型，表示从[百度API官网](http://lbsyun.baidu.com/)申请的密钥。
-```
+
+```JavaScript
 require([
   "gisxxcom/Geocoder", ... 
 ], function(Geocoder, ... ) {
@@ -39,7 +40,8 @@ require([
 #### 属性介绍
 - **ak**：String类型，表示从[百度API官网](http://lbsyun.baidu.com/)申请的密钥。
 例如：
-```
+
+```JavaScript
 Geocoder.ak=WtSZDjE0KEgfSMsxGY7pxnlk
 ```
 
