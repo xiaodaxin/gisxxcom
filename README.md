@@ -15,8 +15,6 @@ require([
 ```
 
 
-[555555](#getlocationopt)
-
 ---
 
 ## 类：Geocoder
@@ -32,9 +30,9 @@ require([
 
 | 名称 | 返回 | 介绍 |
 | :---:| :---: | :---: |
-| getLocation(opt) | None | 获得对应位置的位置信息 |
-| getWeather(opt) | None | 获得对应位置的天气信息 |
-| getPicture(opt) | None | 获得对应位置的全景静态图片 |
+| [getLocation(opt)](#getlocationopt) | None | 获得对应位置的位置信息 |
+| [getWeather(opt)](#getweatheropt) | None | 获得对应位置的天气信息 |
+| [getPicture(opt)](#getpictureopt) | None | 获得对应位置的全景静态图片 |
 
 ### 详细
 
