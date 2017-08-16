@@ -15,6 +15,8 @@ require([
 ```
 
 
+[555555](#getlocationopt)
+
 ---
 
 ## 类：Geocoder
