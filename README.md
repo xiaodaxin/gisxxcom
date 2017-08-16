@@ -1,6 +1,19 @@
 # gisxxcom
 
-> gisxxcom是ArcGIS API for JavaScript的扩展，功能不断升级中
+gisxxcom是ArcGIS API for JavaScript的扩展，功能不断升级中。
+
+## 如何使用
+将gisxxcom文件夹放在部署的API目录中（arcgis_js_api/library/3.20/3.20/），然后就可以想引用其它模块一样使用gisxxcom了
+
+```javascript
+require([
+  "gisxxcom/Geocoder"
+], function(Geocoder, ... ) {
+
+  var geocoder = new Geocoder("WtSZDjE0KEgfSMsxGY7pxnlk");
+});
+```
+
 
 ---
 
